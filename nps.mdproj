@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ItemType>GenericProject</ItemType>
+    <ProjectGuid>{516B57FB-C29C-48F8-8950-9AE4D7500770}</ProjectGuid>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Default|AnyCPU' ">
+    <OutputPath>.\</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="index.html" />
+    <None Include="robin.html" />
+    <None Include="tim.html" />
+    <None Include="marcel.html" />
+    <None Include="joram.html" />
+    <None Include="leon.html" />
+    <None Include="philip.html" />
+    <None Include="exmember.html" />
+    <None Include="css\base.css" />
+    <None Include="npsaudio.html" />
+    <None Include="activemember.html" />
+    <None Include="becomemember.html" />
+  </ItemGroup>
+</Project>

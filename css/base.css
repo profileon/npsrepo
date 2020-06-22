@@ -1,0 +1,108 @@
+﻿html {
+    background-color: white;
+    text-align:center;
+}
+body {
+    margin:0px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+#kopf {
+    background-color: #a9c0c9;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#kopf p {
+    color: white;
+    text-align:left;
+    
+}
+#slogan {
+    display:flex;
+    flex-direction: column;
+    margin-top:1%;
+}
+#slogan1 {
+    font-size:74%;
+    margin-bottom:-2%;
+}
+#slogan2 {
+    font-size: 120%;
+    margin:0px;
+}
+#nav {
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+}
+#nav a {
+    width: 15%;
+    text-decoration: none;
+    font-size: 130%;
+    color: white;
+    padding:3px;
+}
+    #nav a:hover {
+        background-color: #adadad;
+    }
+#logo {
+    width: 200px;
+}
+img {
+    width: 700px;
+}
+.member-foto {
+    width: 300px;
+    margin-left:1%;
+}
+table {
+    color: grey;
+    width: 300px;
+    min-width: 300px;
+    outline:solid;
+    margin-right: 1%;
+    margin-top: 1.5%;
+    background-color: grey;
+}
+td {
+    padding: 19px 15px;
+}
+.tr1 {
+    background-color: #a9c0c9;
+    color:white;
+}
+.tr2 {
+    background-color:white;
+}
+.ulimg {
+    display: flex;
+    flex-direction:row-reverse;
+    justify-content:center;
+    text-align:left;
+}
+.award-foto {
+    width: 150px;
+}
+#elite {
+    display:inline-block;
+}
+#elite a {
+    display:flex;
+    flex-direction:column;
+    text-decoration:none;
+    font-size: 120%;
+    color:white;
+    background-color:gray;
+    padding: 10px 25px;
+}
+    #elite a:hover {
+        background-color: #adadad;
+    }
+    ul {
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+        list-style:none;
+    }
